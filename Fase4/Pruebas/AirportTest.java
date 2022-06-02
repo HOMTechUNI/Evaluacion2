@@ -106,6 +106,7 @@ public class AirportTest {
             }
         }
     }
+}
 
 // Completa la prueba para PremiumFlight de acuerdo a la logica comercial dada. Pregunta 6
 
