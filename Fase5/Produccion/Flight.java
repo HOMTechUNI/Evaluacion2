@@ -9,13 +9,9 @@ public abstract class Flight {
         this.id = id;
     }
 
-    public String getId() {
-        return id;
-    }
+    public String getId() { return id; }
 
-    public Set<Passenger> getPassengersSet() {
-        return Collections.unmodifiableSet(passengers);
-    }
+    public Set<Passenger> getPassengersSet() { return Collections.unmodifiableSet(passengers); }
 
     public abstract boolean addPassenger(Passenger passenger);
 
